@@ -84,7 +84,7 @@
               <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="panel-footer">
-              <a href="#">More info...</a>
+              <a href="#" data-toggle="tooltip" data-placement="top" title="How to become a great Ninja">More info...</a>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@
               <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="panel-footer">
-              <a href="#">More info...</a>
+              <a href="#" data-toggle="tooltip" data-placement="top" title="How to become a great Wizard">More info...</a>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@
               <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="panel-footer">
-              <a href="#">More info...</a>
+              <a href="#" data-toggle="tooltip" data-placement="top" title="How to become a great Psychic">More info...</a>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@
               <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="panel-footer">
-              <a href="#">More info...</a>
+              <a href="#" data-toggle="tooltip" data-placement="top" title="How to become a great Coding">More info...</a>
             </div>
           </div>
         </div>
@@ -197,6 +197,12 @@
     $(".nav li").on("click", function () {
       $(".nav li").removeClass("active");
       $(this).addClass("active");
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(function(){
+      $('[data-toggle="tooltip"]').tooltip();
     });
   </script>
 
